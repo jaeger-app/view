@@ -1,0 +1,22 @@
+{
+  "name" : "jaeger-app/view",
+  "description" : "A view layer.",
+  "require" : {
+    "php" : ">=5.4.0",
+    "mustache/mustache": "~2.5",
+    "jaeger-app/date-time": "dev-master"
+  },
+  "require-dev" : {
+    "phpunit/phpunit" : "4.*"
+  },
+  "authors" : [ {
+    "name" : "Eric Lamb",
+    "email" : "eric@mithra62.com"
+  } ],
+  "autoload" : {
+    "psr-4" : {
+      "JaegerApp\\" : "src/"
+    }
+  },
+  "license" : "MIT"
+}
