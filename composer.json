@@ -6,6 +6,10 @@
 		"mustache/mustache": "~2.5",
 		"jaeger-app/date-time": "dev-master",
 		"jaeger-app/exceptions": "dev-master",
+		"jaeger-app/language": "dev-master",
+		"jaeger-app/files": "dev-master",
+		"jaeger-app/settings": "dev-master",
+		"jaeger-app/encrypt": "dev-master",
 		"zendframework/zend-escaper": "^2.5"
 	},
 	"require-dev": {
