@@ -83,7 +83,7 @@ trait Helpers
      * @param \mithra62\Encrypt $encrypt
      * @param \mithra62\AbstractPlatform $platform
      */
-    public function __construct(\mithra62\Language $lang, \mithra62\Files $file, \mithra62\Settings $setting, \mithra62\Encrypt $encrypt, \mithra62\Platforms\AbstractPlatform $platform)
+    public function __construct(\JaegerApp\Language $lang, \JaegerApp\Files $file, \JaegerApp\Settings $setting, \JaegerApp\Encrypt $encrypt, \JaegerApp\Platforms\AbstractPlatform $platform)
     {
         $this->lang = $lang;
         $this->file = $file;
