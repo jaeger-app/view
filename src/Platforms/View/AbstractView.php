@@ -1,18 +1,18 @@
 <?php
 /**
- * mithra62 - Backup Pro
+ * Jaeger
  *
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
- * @version		3.0
- * @filesource 	./mithra62/BackupPro/Platforms/View/Eecms.php
+ * @copyright	Copyright (c) 2015-2016, mithra62
+ * @link		http://jaeger-app.com
+ * @version		1.0
+ * @filesource 	./View/AbstractView.php
  */
-namespace mithra62\Platforms\View;
+namespace JaegerApp\Platforms\View;
 
-use mithra62\Traits\View\Helpers As ViewHelpers;
+use JaegerApp\Traits\View\Helpers As ViewHelpers;
 
 /**
- * Backup Pro - Eecms View Object
+ * Jaeger - View Abstraction
  *
  * Contains the view helpers for ExpressionEngine
  *
@@ -21,5 +21,5 @@ use mithra62\Traits\View\Helpers As ViewHelpers;
  */
 abstract class AbstractView implements ViewInterface
 {
-    use ViewHelpers;
+    use ViewHelpers; 
 }

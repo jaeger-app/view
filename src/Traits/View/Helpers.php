@@ -1,20 +1,19 @@
 <?php
 /**
- * mithra62
+ * Jaeger
  *
- * @author		Eric Lamb <eric@mithra62.com>
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
+ * @copyright	Copyright (c) 2015-2016, mithra62
+ * @link		http://jaeger-app.com
  * @version		1.0
- * @filesource 	./mithra62/Traits/View/Helpers.php
+ * @filesource 	./Traits/View/Helpers.php
  */
-namespace mithra62\Traits\View;
+namespace JaegerApp\Traits\View;
 
-use mithra62\Traits\DateTime;
+use JaegerApp\Traits\DateTime;
 use RelativeTime\RelativeTime;
 
 /**
- * mithra62 - View Helper Trait
+ * Jaeger - View Helper Trait
  *
  * Contains all the view helper methods we use
  *

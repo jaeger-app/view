@@ -1,16 +1,16 @@
 <?php
 /**
- * mithra62 - Backup Pro
+ * Jaeger
  *
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
- * @version		3.0
- * @filesource 	./mithra62/BackupPro/Platforms/View/ViewInterface.php
+ * @copyright	Copyright (c) 2015-2016, mithra62
+ * @link		http://jaeger-app.com
+ * @version		1.0
+ * @filesource 	./View/ViewInterface.php
  */
-namespace mithra62\Platforms\View;
+namespace JaegerApp\Platforms\View;
 
 /**
- * Backup Pro - View Interface
+ * Jaeger - View Interface
  *
  * Defines the view helpers for we provide
  *
@@ -25,7 +25,7 @@ interface ViewInterface
      * 
      * @param string $string
      *            The language key to translate
-     * @return \mithra62\string
+     * @return string
      */
     public function m62Lang($string);
 
@@ -33,7 +33,7 @@ interface ViewInterface
      * Formats a file value into a human readable format
      * 
      * @param string $string            
-     * @return \mithra62\string
+     * @return string
      */
     public function m62FileSize($string);
 
