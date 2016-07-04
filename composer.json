@@ -4,12 +4,12 @@
 	"require": {
 		"php": ">=5.4.0",
 		"mustache/mustache": "~2.5",
-		"jaeger-app/date-time": "dev-master",
-		"jaeger-app/exceptions": "dev-master",
-		"jaeger-app/language": "dev-master",
-		"jaeger-app/files": "dev-master",
-		"jaeger-app/settings": "dev-master",
-		"jaeger-app/encrypt": "dev-master",
+		"jaeger-app/date-time": "^0.1",
+		"jaeger-app/exceptions": "^0.1",
+		"jaeger-app/language": "^0.1",
+		"jaeger-app/files": "^0.1",
+		"jaeger-app/settings": "^0.1",
+		"jaeger-app/encrypt": "^0.1",
 		"zendframework/zend-escaper": "^2.5"
 	},
 	"minimum-stability": "dev",
